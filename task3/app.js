@@ -10,7 +10,7 @@ Bu metodları çağırın.
 let obj = {
     age: 0,
     gender: function () {
-        return prompt("Kişisən yoxsa qadın (k/q)").toLowerCase(); 
+        return prompt("Kişisən yoxsa qadin (k/q)").toLowerCase(); 
     },
     setPensiyaAge: function () { 
         const g = this.gender(); 
@@ -22,7 +22,7 @@ let obj = {
     },
     pensiyaAge: 65,
     setAGE: function () {
-        this.age = +prompt("Neçə yaşın var?");
+        this.age = +prompt("Neçə yasin var?");
         return this.age;
     },
     getYearsBeforeRetirement: function () {
